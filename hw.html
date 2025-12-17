@@ -1,0 +1,22 @@
+<head>
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1 id="one">Welcome</h1><br>
+    <h1 id="two">This is my website</h1><br>
+    <h2 id="three">These messages should send a message</h2><br>
+    <p id="four">Feel free to test it!</p>
+    <script>
+        var text = document.getElementById("one").innerHTML;
+        alert("The first heading is: " + text);
+        var text = document.getElementById("two").innerHTML;
+        alert("The second heading is: " + text);
+        var text = document.getElementById("three").innerHTML;
+        alert("The third heading is: " + text);
+        var text = document.getElementById("four").innerHTML;
+        alert("The first paragraph is: " + text);
+    </script>
+</body>
+
+</html>
